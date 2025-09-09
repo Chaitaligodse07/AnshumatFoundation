@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+Anshumat Foundation Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, modern React-based website for Anshumat Foundation, a Section 8 non-profit organization dedicated to empowering individuals through mentorship, education, and community initiatives.
 
-## Available Scripts
+# Features
+ Responsive Navbar with smooth navigation
 
-In the project directory, you can run:
+Hero Section highlighting the mission and call-to-action
 
-### `npm start`
+Mission & Initiatives showcasing impactful programs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Contact Form with client-side validation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Registration Form for volunteers, mentors, and mentees
 
-### `npm test`
+About & Get Involved pages for detailed information
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Footer with social media links
 
-### `npm run build`
+Fully styled with Bootstrap 5 and custom CSS animations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Project Structure
+anshumat-org/
+├── public/
+├── src/
+│   ├── components/      # Reusable UI components (Navbar, Hero, Forms, Footer)
+│   ├── pages/           # Main pages (Home, About, GetInvolved)
+│   ├── App.js           # App routing and layout
+│   ├── index.js         # Entry point
+│   ├── App.css          # Global styles
+│   └── custom.css       # Component-specific styles
+├── package.json
+└── README.md
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React
 
-### `npm run eject`
+React Router DOM
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Bootstrap 5
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Custom CSS with animations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Google Fonts (Poppins)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Commands-
+npx create-react-app anshumatfoundation
 
-## Learn More
+# Move inside project
+cd anshumatfoundation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install Bootstrap + React Router
+npm install bootstrap react-router-dom
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Deploy project
+C:\Users\chait\Documents\Ass\anshumatfoundation>git init
+Initialized empty Git repository in C:/Users/chait/Documents/Ass/anshumatfoundation/.git/
 
-### Code Splitting
+C:\Users\chait\Documents\Ass\anshumatfoundation>git add .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+C:\Users\chait\Documents\Ass\anshumatfoundation>git commit -m "Initial commit"
 
-### Analyzing the Bundle Size
+C:\Users\chait\Documents\Ass\anshumatfoundation>git remote add origin https://github.com/Chaitaligodse07/AnshumatFoundation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+C:\Users\chait\Documents\Ass\anshumatfoundation>git branch -M main
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+C:\Users\chait\Documents\Ass\anshumatfoundation>git push -u origin main
