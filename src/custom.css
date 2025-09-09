@@ -1,0 +1,97 @@
+/* contactform */
+button.btn-primary {
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* footer */
+
+/* hero */
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.2s;
+}
+.delay-2 {
+  animation-delay: 0.4s;
+}
+
+/* initiative */
+.initiative-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.initiative-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* mission */
+.mission-section {
+  background-color: #f8f9fa; /* same as bg-light for subtle highlight */
+}
+
+/* navbar */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #0b5ed7; /* Slightly darker than primary */
+  color: #fff;
+  font-weight: 600;
+}
+
+/* registrationform */
+.rounded-input {
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.rounded-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(25, 135, 84, 0.6); /* greenish glow */
+  border-color: #198754; /* bootstrap success green */
+}
+
+.btn-hover-shadow {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.btn-hover-shadow:hover {
+  box-shadow: 0 6px 15px rgba(25, 135, 84, 0.5);
+  transform: translateY(-2px);
+}
+
+/* about */
+.about-section {
+  background-color: #f8f9fa; /* subtle light bg */
+}
+
